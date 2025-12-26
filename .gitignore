@@ -1,0 +1,13 @@
+# Ignore the virtual environment
+myenv/
+venv/
+.venv/
+
+# Ignore secrets
+.env
+.env.example
+agent_policy.yaml
+
+# Ignore Python cache
+_pycache_/
+*.pyc
