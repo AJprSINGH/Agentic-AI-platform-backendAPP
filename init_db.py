@@ -15,20 +15,37 @@ from models import Base
 
 def init_database():
     """Create all database tables"""
+<<<<<<< HEAD
     print("Creating database tables...")
     
+=======
+    print("Dropping existing tables...")
+    Base.metadata.drop_all(bind=engine)
+    print("Creating database tables...")
+
+>>>>>>> a2600ba (update 30/12/2025- 4pm)
     try:
         # Create all tables
         Base.metadata.create_all(bind=engine)
         print("Database tables created successfully!")
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> a2600ba (update 30/12/2025- 4pm)
         # List created tables
         print("\nCreated tables:")
         for table_name in Base.metadata.tables.keys():
             print(f"  - {table_name}")
+<<<<<<< HEAD
             
         return True
         
+=======
+
+        return True
+
+>>>>>>> a2600ba (update 30/12/2025- 4pm)
     except Exception as e:
         print(f"Error creating database tables: {e}")
         return False

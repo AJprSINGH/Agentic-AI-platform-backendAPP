@@ -1,4 +1,5 @@
 fastapi==0.104.1
+<<<<<<< HEAD
 uvicorn[standard]==0.24.0
 sqlalchemy==2.0.23
 psycopg2-binary==2.9.9
@@ -6,3 +7,12 @@ pydantic==2.5.0
 python-dotenv==1.0.0
 pydantic-settings==2.1.0
 PyYAML==6.0.1
+=======
+uvicorn[standard]==0.27.0
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.11  # For PostgreSQL
+pydantic==2.4.0
+python-dotenv==1.0.0
+pydantic-settings==2.1.0
+pyyaml==6.0.1
+>>>>>>> a2600ba (update 30/12/2025- 4pm)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
@@ -8,6 +9,8 @@ class Settings(BaseSettings):
     database_url: str
 
 settings = Settings()
+=======
+>>>>>>> a2600ba (update 30/12/2025- 4pm)
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
@@ -18,4 +21,8 @@ class Settings(BaseSettings):
     class Config:
         env_file = ".env"
 
+<<<<<<< HEAD
 settings = Settings()
+=======
+settings = Settings()
+>>>>>>> a2600ba (update 30/12/2025- 4pm)

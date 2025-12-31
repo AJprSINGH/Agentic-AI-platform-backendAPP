@@ -173,7 +173,11 @@ def seed_sample_data():
             for run in agent_runs:
                 run_tasks = [t for t in tasks if t.run_id == run.id]
                 run_reflections = [r for r in reflections if r.run_id == run.id]
+<<<<<<< HEAD
                 print(f"   ├── Run: {run.status} ({len(run_tasks)} tasks, {len(run_reflections)} reflections)")
+=======
+                print(f"   - Run: {run.status} ({len(run_tasks)} tasks, {len(run_reflections)} reflections)")
+>>>>>>> a2600ba (update 30/12/2025- 4pm)
         
         return True
         

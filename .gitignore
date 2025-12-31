@@ -5,8 +5,11 @@ venv/
 
 # Ignore secrets
 .env
+<<<<<<< HEAD
 .env.example
 agent_policy.yaml
+=======
+>>>>>>> a2600ba (update 30/12/2025- 4pm)
 
 # Ignore Python cache
 _pycache_/
